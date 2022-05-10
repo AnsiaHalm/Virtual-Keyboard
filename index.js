@@ -562,6 +562,9 @@ window.addEventListener('keydown', (e) => {
   } else if (e.code === 'Enter') {
     enter.classList.add('active');
   } else if (e.code === 'Tab') {
+    e.preventDefault();
+    // eslint-disable-next-line no-use-before-define
+    textarea.value += '    ';
     tab.classList.add('active');
   } else if (e.code === 'MetaLeft') {
     win.classList.add('active');
