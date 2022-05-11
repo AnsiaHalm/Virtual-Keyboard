@@ -49,7 +49,6 @@ main {
         caret-color: rgb(204, 0, 255);
     }
 }
-
 .description{
     margin: 10px auto;
     text-align: center;
@@ -68,7 +67,6 @@ main {
     border: 10px solid rgba(255, 218, 187, 0.2);
     border-radius: 15px;
     box-shadow: 0px 7px 12px 4px rgba(150, 136, 154, 0.2), 0px 5px 10px 2px rgba(150, 136, 154, 0.2) inset;
-    
 }
 .keyboard .row {
     clear: both;
